@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="85%">
+      <stop offset="0%" stop-color="#d9f6d3" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#c2e4b8" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#f0f6ee" stop-opacity="0.88"/>
+    </radialGradient>
+    <linearGradient id="wash" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8ac49b" stop-opacity="0.32"/>
+      <stop offset="50%" stop-color="#6bb4c3" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#f0d1a1" stop-opacity="0.32"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)"/>
+  <rect width="960" height="640" fill="url(#wash)"/>
+  <g opacity="0.42" stroke="#2f6a5c" stroke-width="7" stroke-linecap="round" fill="none">
+    <path d="M140 500 Q220 440 320 450 T480 440 T660 450 T820 430"/>
+    <path d="M200 520 Q270 470 360 480 T500 470 T680 480 T820 470"/>
+  </g>
+  <g opacity="0.48" fill="#2f6a5c">
+    <rect x="230" y="360" width="120" height="180" rx="18" fill-opacity="0.3"/>
+    <rect x="380" y="340" width="100" height="200" rx="18" fill-opacity="0.3"/>
+    <rect x="520" y="330" width="80" height="210" rx="16" fill-opacity="0.3"/>
+    <rect x="640" y="360" width="110" height="180" rx="18" fill-opacity="0.3"/>
+  </g>
+  <g opacity="0.35" fill="#e9f6ee">
+    <rect x="250" y="395" width="26" height="44" rx="8"/>
+    <rect x="292" y="395" width="26" height="44" rx="8"/>
+    <rect x="398" y="380" width="24" height="44" rx="8"/>
+    <rect x="434" y="380" width="24" height="44" rx="8"/>
+    <rect x="538" y="370" width="22" height="42" rx="8"/>
+    <rect x="568" y="370" width="22" height="42" rx="8"/>
+    <rect x="662" y="395" width="24" height="44" rx="8"/>
+    <rect x="700" y="395" width="24" height="44" rx="8"/>
+  </g>
+  <g opacity="0.5" stroke="#3f8c7a" stroke-width="9" stroke-linecap="round">
+    <path d="M500 330 Q520 250 520 180"/>
+    <rect x="500" y="170" width="40" height="50" rx="14" fill="#3f8c7a" fill-opacity="0.5"/>
+  </g>
+  <text x="80" y="120" font-family="'Palatino Linotype', 'Times New Roman', serif" font-size="46" fill="#2f6a5c" fill-opacity="0.88">Taipei</text>
+  <text x="80" y="165" font-family="'Palatino Linotype', 'Times New Roman', serif" font-size="28" fill="#2f6a5c" fill-opacity="0.82">巷弄咖啡香與濕潤的風</text>
+</svg>
